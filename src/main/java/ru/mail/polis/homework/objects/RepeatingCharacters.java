@@ -34,7 +34,7 @@ public class RepeatingCharacters {
 
         maxPair = pairs.get(0);
         for (int i = 1; i < pairs.size(); i++) {
-            if (pairs.get(i).second > maxPair.second) {
+            if (pairs.get(i).getSecond() > maxPair.getSecond()) {
                 maxPair = pairs.get(i);
             }
         }
